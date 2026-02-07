@@ -205,8 +205,4 @@ When done:
 
 ---
 
-## 💼 Resume Documentation Point
 
-You can write:
-
-> "Designed and deployed a highly available web application using AWS EC2, Application Load Balancer, and Target Groups with secure security group configuration and automated provisioning via EC2 User Data."
