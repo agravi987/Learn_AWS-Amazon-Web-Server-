@@ -8,7 +8,7 @@ This architecture eliminates the need for managing servers and ensures automatic
 
 ## 2️⃣ Architecture Diagram (Logical Flow)
 
-```mermaid
+```
 graph TD;
     User[User Uploads File] -->|PUT Object| S3[Amazon S3 Bucket];
     S3 -->|Event Notification| Lambda[AWS Lambda Function (Python)];
