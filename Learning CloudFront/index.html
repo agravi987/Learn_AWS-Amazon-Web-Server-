@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS CloudFront Basics - Learn with Rithu 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 AWS CloudFront Simplified! 💕</h1>
+    
+    <section id="what-is">
+        <h2>What is CloudFront?</h2>
+        <p>CloudFront is AWS's super-fast Content Delivery Network (CDN). It speeds up your websites, videos, images by caching them close to users worldwide! [web:8][web:7]</p>
+        <img src="cloudfront.png" alt="CloudFront How it Works" class="diagram">
+    </section>
+    
+    <section id="key-features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Global Edge Locations (400+ points worldwide) for low latency [web:13]</li>
+            <li>Caches static/dynamic content</li>
+            <li>Secure with HTTPS, DDoS protection</li>
+            <li>Integrates with S3, EC2, Lambda</li>
+            <li>Pay only for what you use! 😊</li>
+        </ul>
+        <img src="edge-location.png" alt="CloudFront Edge Locations Map" class="map">
+    </section>
+    
+    <section id="how-works">
+        <h2>How Does It Work?</h2>
+        <ol>
+            <li>User requests content</li>
+            <li>Goes to nearest Edge Location</li>
+            <li>If cached, serve fast! Else fetch from origin (S3/EC2) and cache [web:8]</li>
+        </ol>
+    </section>
+    
+    <section id="getting-started">
+        <h2>Quick Start</h2>
+        <ol>
+            <li>Create S3 bucket with files</li>
+            <li>Set up CloudFront distribution with S3 as origin</li>
+            <li>Configure bucket policy for access</li>
+            <li>Test your domain! [web:1][web:6]</li>
+        </ol>
+    </section>
+    
+</body>
+</html>
